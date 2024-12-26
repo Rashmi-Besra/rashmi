@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rashmi portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color:#0f0228;
+      color: hsl(273, 86%, 11%);
+      font-family: 'poppins',sans-serif;
+    }
+    nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 70px;
+      background-color: #b779e9;
+    }
+    nav ul{
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li{
+      list-style: none;
+      font-weight: 500px;
+      margin:0 25px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover{
+      color: #0b0221;
+    }
+
+    main hr{
+      border: 0;
+      background: #b865b8;
+      height: 1.2px;
+      margin: 60px 84px;
+    }
+    .left{
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    .firstsec{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 80px 0;
+    }
+    .firstsec>div{
+      width: 30%;
+    }
+    .leftsec{
+      font-size: 3rem;
+      color:#c2bcc6;
+      margin: 70px 0;
+    }
+    .rightsec img{
+      margin: 50px 0;
+    }
+    .purple{
+      color: rgb(211, 134, 204);
+    }
+    #element{
+      color: rgb(211, 134, 204);
+    }
+
+    .secondsec{
+      max-width: 80vw;
+      margin: auto;
+      color: rgb(211, 134, 204);
+      height: 80vh;
+    }
+    .secondsec h1{
+      font-size: 1.9rem;
+    }
+    .secondsec h2{
+      color: white;
+    }
+
+    .secondsec .box{
+      background: rgb(211, 134, 204);
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    
+    }
+
+    .secondsec .vertical{
+      height: 60px;
+      width: 1px;
+      background-color: rgb(211, 134, 204);
+      margin: 0 auto;
+      position: relative;
+    }
+    .thirdsec{
+      max-width: 80vw;
+      margin: auto;
+      color: rgb(211, 134, 204);
+      height: 35vh;
+    }
+    .thirdsec h2{
+      color: white;
+    }
+    .thirdsec .skills{
+      color:  rgb(211, 134, 204);
+      list-style: lower-alpha;
+    }
+    
+    .fourthsec{
+      max-width: 80vw;
+      margin: auto;
+      color: rgb(211, 134, 204);
+      height: 35vh;
+    }
+    .fourthsec h2{
+      color: white;
+    }
+    .fourthsec .skills{
+      color:  rgb(211, 134, 204);
+      list-style: lower-alpha;
+    }
+
+    .fifthsec{
+      max-width: 80vw;
+      margin: auto;
+      color: rgb(211, 134, 204);
+      height: 35vh;
+    }
+    .fifthsec h2{
+      color: white;
+    }
+    .fifthsec .skills{
+      color:  rgb(211, 134, 204);
+      list-style: lower-alpha;
+    }
+    
+    .vertical-title{
+      position: relative;
+      top: 75px;
+      left:3px;
+      
+      width: 150px;
+      font-size: 15px;
+      transform: translate(-50%,10px);
+
+      
+    }
+    .vertical-desc{
+      position: relative;
+      left:80px;
+      width:150px;
+      font-size: 12px;
+      color: rgb(211, 134, 204);
+      text-align: left;
+      transform: translate(-50%,10px);
+    }
+
+    .footer{
+      background-color: #b779e9;
+     
+    }
+    .footer{
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+    .footer ul{
+      list-style: none;
+    }
+    .footer > div{
+      width: 223px;
+    }
+    footer .footer-rights{
+      text-align: center;
+      color: rgb(238, 235, 235);
+      padding: 12px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Rashmi Besra</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+  <main>
+    <section class="firstsec">
+      <div class="leftsec">
+        Hii, My name is <span class="purple">Rashmi Besra.</span>
+        <span id="element"></span>
+
+      </div>
+      <div class="rightsec">
+        <img src="rashmi.jpeg" alt="" width="400px" height="350px">
+        
+      </div>
+    </section>
+    <hr>
+    <section class="secondsec">
+      <h1>About</h1>
+      <h2>Education</h2>
+      <div class="box"> 
+        
+        <div class="vertical">
+        </div>
+        <div class="vertical-title">
+          <span class="vertical-line"></span>
+          <h3>Matriculation(10th Grade)</h3>
+        <div class="vertical-desc">
+            <li>School:South Eastern Railway Mixed Higher Secondary School Chakradharpur</li>
+            <li>Board:ICSE</li>
+            <li>Year:2019-2020</li>
+            <li>Percentage:91.25%</li>
+        </div>
+        </div>
+        <div class="vertical"></div>
+        <div class="vertical-title">
+          <span class="vertical-line"></span>
+          <h3>Intermediate(12th)</h3>
+          <div class="vertical-desc">
+            <li>School:Kendriya Vidyalaya,Chakradharpur</li>
+            <li>Board:CBSE</li>
+            <li>Year:2020-2022</li>
+            <li>Percentage:91.2%</li>
+        </div>
+        </div>
+        <div class="vertical"></div>
+        <div class="vertical-title">
+          <span class="vertical-line"></span>
+          <h3>Bachelor's of Technology</h3>
+          <div class="vertical-desc">
+            <li>College: National Institute of Technology Jamshedpur</li>
+            <li>Branch: Computer Science and Engineering</li>
+            <li>Year: 2023-2027</li>
+            <li>currently: 2nd Year</li>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="thirdsec">
+      <h2>Tech skills</h2>
+      <div class="skills">
+        <ul>
+          <li>C</li>
+          <li>C++</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+
+    </section>
+    <section class="fourthsec">
+      <h2>Projects</h2>
+      <div class="projects">
+        <ul>
+          <li>Amazon Clone using HTML & CSS</li>
+          <li>My portfolio</li>
+        </ul>
+      </div>
+      </section>
+
+      <section class="fifthsec">
+        <h2>Contact</h2>
+        <div class="Contact">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/rashmi-besra7059/">Linkedin:  https://www.linkedin.com/in/rashmi-besra7059/</a></li>
+            <li><a href="https://github.com/Rashmi-Besra">GitHub : https://github.com/Rashmi-Besra</a></li>
+          </ul>
+        </div>
+
+        
+        
+        </section>
+
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="first">
+        <h3>Rashmi's developer Portfolio</h3>
+
+      </div>
+      <div class="second"></div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+      </ul>
+      <div class="third"></div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+      </ul>
+      <div class="fourth"></div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+      </ul>
+    </div>
+    <div class="footer-rights">
+     Copyright &#169;www.rashmisportfolio.com | All rigths reserved
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>I am a Frontend</i> developer.', '&amp; a NITian.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
+
+       
